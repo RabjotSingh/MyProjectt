@@ -12,5 +12,10 @@ namespace MyProject
         {
             Console.WriteLine("Method added");
         }
+
+        public void Method2()
+        {
+            Console.WriteLine("Method 2 added");
+        }
     }
 }
