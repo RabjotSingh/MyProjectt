@@ -27,5 +27,10 @@ namespace MyProject
         {
             Console.WriteLine("Method added by Rabjot");
         }
+
+        public void  NewMethod()
+        {
+            Console.WriteLine("New Method Added");
+        }
     }
 }
