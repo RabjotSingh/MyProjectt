@@ -12,12 +12,6 @@ namespace MyProject
             int z = myobj.addition(5, 6);
             Console.WriteLine(z);
 
-            Banking account = new Banking("Rabjot", 35000, 10000, 25000);
-            account.TakeName();
-            account.DepositMoney(1000);
-            account.WithdrawMoney(25000);
-            Console.WriteLine(account.balance);
-
         }
     }
 }
